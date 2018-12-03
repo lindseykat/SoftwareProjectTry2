@@ -67,6 +67,8 @@
         var totalWordCount;
         var negativeSentence;
         var positiveSentence;
+        var positiveWords = [];
+        var negativeWords = [];
 
         function getData(jsonName) {
             var xhttp = new XMLHttpRequest();
@@ -90,10 +92,10 @@
                         positiveSentence = javaObj.most_positive_tweet;
                         console.log(positiveSentence);
                     }
-                    // else if (jsonName == "most_negative_words_in_tweets.json")
-                    // {
-                    //
-                    // }
+                    else if (jsonName == "most_negative_words_in_tweets.json")
+                    {
+
+                    }
                 }
             };
             xhttp.open("GET", jsonName, true);
