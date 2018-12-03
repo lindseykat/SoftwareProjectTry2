@@ -7,10 +7,7 @@
 		body {
 			background-color: white;
 		}
-		img.resize {
-			max-width:50%;
-			max-height:50%;
-		}
+
 		li {
 			display: inline;
 		}
@@ -22,17 +19,17 @@
 			text-decoration: none;
 			color: black;
 		}
+
 		h2 {
 			position: relative;
 			left: 100px;
 			top: 50px;
 		}
+
 		.topnav {
 			background-color: black;
 			overflow: hidden;
 		}
-
-
 		.topnav a {
 			float: right;
 			color: #f2f2f2;
@@ -49,7 +46,6 @@
 			background-color: #4CAF50;
 			color: white;
 		}
-
 		.topnav nm {
 			float: left;
 			color: #f2f2f2;
@@ -58,6 +54,7 @@
 			text-decoration: aqua;
 			font-size: 17px;
 		}
+
 		.liquidFillGaugeText {
 			font-family: Helvetica;
 			font-weight: bold;
@@ -122,7 +119,9 @@
 		</div>
 		
 		<h2>
-			<svg id="fillgauge1" width="20vw" height="500" >Percentage of positive words</svg>
+			<svg id="fillgauge1" width="20vw" height="500" >
+                <text x="20" y="20" font-family="helvetica" font-size="20px">Percentage of positive words</text>
+            </svg>
 			<svg id="fillgauge2" width="20vw" height="500" >Number of positive words</svg>
             <svg id="fillgauge3" width="20vw" height="500" >Number of neutral words</svg>
 
